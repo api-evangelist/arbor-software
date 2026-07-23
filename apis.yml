@@ -1,8 +1,24 @@
 aid: arbor-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arbor-software.png
 name: Arbor Software
-description: Arbor Software is a company surfaced as a portfolio company of accel, mayfield and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Arbor Software Corporation was an enterprise business-intelligence and OLAP software
+  company founded in 1991 in Sunnyvale, California by Bob Earle and Jim Dorian. It created Essbase,
+  the pioneering multidimensional online-analytical-processing (OLAP) server first released in 1992,
+  and went public on NASDAQ under the ticker ARSW in 1995. Arbor merged with Hyperion Software in
+  1998 to form Hyperion Solutions Corporation, which Oracle Corporation acquired in 2007; the Essbase
+  technology lives on inside Oracle. Arbor Software no longer exists as an independent entity and
+  publishes no live API, developer portal, or documentation surface, so there is nothing to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/arbor-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +27,30 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Merged into Hyperion Solutions (1998); Hyperion acquired by Oracle (2007). No live
+  API surface. Essbase OLAP technology now part of Oracle.
+x-enrichment-verdict: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Business Intelligence
+- OLAP
+- Analytics
+- Data
+- Enterprise Software
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
