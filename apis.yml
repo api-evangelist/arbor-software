@@ -31,7 +31,7 @@ x-status: defunct
 x-status-detail: Merged into Hyperion Solutions (1998); Hyperion acquired by Oracle (2007). No live
   API surface. Essbase OLAP technology now part of Oracle.
 x-enrichment-verdict: no-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
